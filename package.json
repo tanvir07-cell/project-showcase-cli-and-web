@@ -1,0 +1,25 @@
+{
+  "name": "fullstack-project-showcase-vanillajs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "project-showcase": "./index.js"
+  },
+  "scripts": {
+    "web": "npx serve -s .",
+    "cli": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "tanvir07-cell",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "4.11",
+    "lowdb": "^7.0.1",
+    "open": "^10.1.0",
+    "terminal-image": "^3.0.0"
+  }
+}
